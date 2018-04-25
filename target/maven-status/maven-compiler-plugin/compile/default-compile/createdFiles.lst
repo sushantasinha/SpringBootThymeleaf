@@ -1,0 +1,3 @@
+com\spring\thymeleaf\SpringBootWebApplication.class
+spring\sample\SpringBootThymeleaf\App.class
+com\spring\thymeleaf\controller\SampleController.class
