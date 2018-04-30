@@ -41,6 +41,38 @@
 
 	<script type="text/javascript"
 		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		
+		
+		
+		
+		
+<!-- https://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html can be referred for thymeleaf examples -->		
+		
+<table>
+    <thead>
+      <tr>
+        <th>header1</th>
+        <th>header2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr th:each="sb : ${cacheModelList}">
+        <td th:text="${{sb.cacheKey}}"/>
+        <td th:text="${{sb.cacheValue}}"/>        
+      </tr>
+    </tbody>
+  </table>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 </body>
 </html>
